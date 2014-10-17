@@ -1,4 +1,4 @@
-FROM lazywei/cm_psql:latest
+FROM lazywei/cm_base:latest
 MAINTAINER Bert Chang "https://github.com/lazywei"
 
 RUN apt-get install -y nodejs npm
