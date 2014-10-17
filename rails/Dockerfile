@@ -6,4 +6,4 @@ RUN apt-get install -y memcached
 
 VOLUME ["/root/src/codementor"]
 
-CMD memcached -d && bash
+ENTRYPOINT memcached -d && bash
