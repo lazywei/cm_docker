@@ -22,4 +22,4 @@ RUN rbenv global 2.1.3
 RUN echo 'gem: --no-rdoc --no-ri' >> /.gemrc
 RUN gem install bundler
 
-RUN mkdir -p /src
+RUN mkdir -p /root/src

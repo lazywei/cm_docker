@@ -1,9 +1,6 @@
 FROM lazywei/cm_base:latest
 MAINTAINER Bert Chang "https://github.com/lazywei"
 
-# RUN apt-get install -y postgresql-9.3 postgresql-contrib-9.3 libpq-dev
-# RUN apt-get install -y nodejs npm
-
 # Add the PostgreSQL PGP key to verify their Debian packages.
 # It should be the same key as https://www.postgresql.org/media/keys/ACCC4CF8.asc
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8
